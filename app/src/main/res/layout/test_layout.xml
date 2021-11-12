@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bss"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="284dp"
+        android:layout_height="178dp"
+        android:weightSum="1">
+
+        <RadioButton
+            android:id="@+id/PresentradioButton"
+            android:layout_width="76dp"
+            android:layout_height="42dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="P"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/AbsentradioButton"
+            android:layout_width="76dp"
+            android:layout_height="42dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="A"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/attendanceSubmitButton"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbutton"
+            android:text="Submit"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+</LinearLayout>
